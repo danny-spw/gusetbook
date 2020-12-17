@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class VebConfig(AppConfig):
-    name = 'veb'
+class WebConfig(AppConfig):
+    name = 'web'
