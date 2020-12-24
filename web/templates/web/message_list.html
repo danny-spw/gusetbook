@@ -4,7 +4,7 @@
 <ul>
   {% for message in message_list %}
   <li>
-    {{ message.publication_date }}
+    {{ message.created }}
     <a href="{% url 'msg_view' message.id %}">{{ message.subject }}</a>
   </li>
   {% endfor %}
